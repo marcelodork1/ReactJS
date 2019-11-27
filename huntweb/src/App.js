@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import api from './services/api';
+import Routes from "./routes"
 //import './App.css';
 
 import "./styles.css";
@@ -11,7 +12,7 @@ import Main from './pages/main';
 const App = () => (
   <div className="App">
      <Header/>
-     <Main/>
+     <Routes/>
   </div>
 
 );
